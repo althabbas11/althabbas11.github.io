@@ -1,0 +1,18 @@
+/*ITE_BMM601_HW_F21_C1_mhd_hussam_109817*/
+
+/*  Filters */
+.filter-moon {
+  -webkit-filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35);
+  filter: brightness(1.4) contrast(.95) saturate(0) sepia(.35);
+}
+
+.filter-1977 {
+  -webkit-filter: sepia(.5) hue-rotate(-30deg) saturate(1.4);
+  filter: sepia(.5) hue-rotate(-30deg) saturate(1.4);
+}
+
+
+.filter-walden {
+  -webkit-filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4);
+  filter: sepia(.35) contrast(.8) brightness(1.25) saturate(1.4);
+}

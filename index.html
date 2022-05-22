@@ -1,0 +1,812 @@
+<!--ITE_BMM601_HW_F21_C1_mhd_hussam_109817-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--Responsive meta tag-->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>SREA</title>
+
+    <!-- Favicon -->
+    <link href="assets/img/fav/favicon.ico" rel="icon">
+
+    <!-- Vendor CSS Files -->
+
+    <!-- Bootstrap-->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap-icons, https://icons.getbootstrap.com/ -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- Animate.css, https://animate.style/ -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <!-- Animate On Scroll Library, https://michalsnik.github.io/aos/ -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- Box-icons https://boxicons.com/ -->
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <!-- GLightbox, https://biati-digital.github.io/glightbox/ -->
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Remixicon, https://remixicon.com/ -->
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <!-- Swiper, https://swiperjs.com-->
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Template Filters CSS File -->
+    <link rel="stylesheet" href="assets/css/filters.css">
+</head>
+
+<body>
+
+<!--Navbar-->
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+        <!-- SREA Logo-->
+        <a href="index.html" class="logo">
+            <img src="assets/img/fav/android-chrome-512x512.png" alt="" class="img-fluid">
+            <h1 class="logo">
+                <a href="index.html" class="logo">
+                    SREA
+                </a>
+            </h1>
+        </a>
+
+        <div class="container d-flex align-items-center justify-content-between">
+            <div><span style="font-size: 10px;">Syrian Renewable Energy Association</span></div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="#products">Products</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+                </ul>
+                <!-- Show burger menu for small screens-->
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!--A Carousel of three images and text-->
+<section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url(assets/img/renewable/6.jpg)">
+                <div class="carousel-container">
+                    <div class="container">
+                        <h2 class="animate__animated animate__fadeInDown">Welcome to <br><span>SREA - Syrian Renewable Energy Association</span>
+                        </h2>
+                        <p class="animate__animated animate__fadeInUp">
+                            The main goal is providing THE BEST sustainable natural power resources...
+                            <br>
+                            Wind power, sun and light power, batteries...
+                        </p>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url(assets/img/renewable/14.jpg)">
+                <div class="carousel-container">
+                    <div class="container">
+                        <h2 class="animate__animated animate__fadeInDown">For a CLEAN GREEN Nature</h2>
+                        <ul class="animate__animated animate__fadeInUp">
+                            <li style="color: white;">Reduces energy imports.</li>
+                            <li style="color: white;"> Reduces the use of fossil fuels.</li>
+                            <li style="color: white;"> Not pollutant.</li>
+                        </ul>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url(assets/img/renewable/3.jpg)">
+                <div class="carousel-container">
+                    <div class="container">
+                        <h2 class="animate__animated animate__fadeInDown">Sustainable Power Resources</h2>
+                        <p class="animate__animated animate__fadeInUp">
+                            Solar energy is the best form of sustainable energy. This energy manifests itself in two
+                            forms.
+                            There is the light and the heat.
+                            Both of these forms are equally important to us in our day-to-day living and other
+                            forms of life.
+                        </p>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+    </div>
+</section>
+
+<!--About-->
+<main id="main">
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>About</h2>
+                <p>About Us</p>
+            </div>
+            <div class="row content">
+                <div class="col-lg-6">
+                    <ul>
+                        <li>
+                            <i class="ri-check-double-line"></i>
+                            SREA has a portfolio of operational wind projects.
+                        </li>
+                        <li>
+                            <i class="ri-check-double-line"></i>
+                            SREA is a leading solar power developer with a proven track record.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <p>
+                        SREA remains committed to making meaningful, incremental improvements to the lives
+                        of rural communities in and around our project sites, paving the way for a better society and
+                        country where the fruits of development trickle down to the bottom of the pyramid and help
+                        create a safer and better planet for the generations to come.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                        <i class="bi bi-emoji-smile"></i>
+                        <span data-purecounter-start="500" data-purecounter-end="1250" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Clients</strong> around Syria</p>
+                        <a href="#">Find out more &raquo;</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                        <i class="bi bi-journal-richtext"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Done Projects</strong> in many governorates, and in several aspects</p>
+                        <a href="#">Find out more &raquo</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                        <i class="bi bi-people"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="750" data-purecounter-duration="1"
+                              class="purecounter"></span>
+                        <p><strong>Job Opportunities</strong></p>
+                        <a href="#">Find out more &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro video with captions and a thumbnail-->
+    <video id="video" controls preload="metadata" class="container d-flex align-items-center"
+           poster="assets/img/poster.jpg" data-aos="fade-up">
+        <source src="assets/videos/Intro.mp4" type="video/mp4">
+        <track label="Arabic" kind="subtitles" srclang="ar" src="assets/captions/ar.vtt" default>
+        <track label="English" kind="subtitles" srclang="en" src="assets/captions/en.vtt">
+    </video>
+    <br>
+
+
+    <section id="gallery-images" class="gallery-images section-bg">
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-4 align-items-stretch video-box"
+                     style='background-image: url("assets/img/renewable/17.jpg");' data-aos="zoom-in"
+                     data-aos-delay="100">
+                </div>
+                <div class="col-lg-4 align-items-stretch video-box"
+                     style='background-image: url("assets/img/renewable/5.jpg");' data-aos="zoom-in"
+                     data-aos-delay="100">
+                </div>
+                <div class="col-lg-4 align-items-stretch video-box filter-crema"
+                     style='background-image: url("assets/img/renewable/6.jpg");' data-aos="zoom-in"
+                     data-aos-delay="100">
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Simple Article-->
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-5 align-items-stretch video-box"
+                     style='background-image: url("assets/img/renewable/4.jpg");' data-aos="zoom-in"
+                     data-aos-delay="100">
+                </div>
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+                    <div class="content">
+                        <h3>Pros of wind energy:</h3>
+                    </div>
+                    <div class="accordion-list">
+                        <ul>
+                            <li>
+                                <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span>
+                                    Free Fuel
+                                    <i
+                                            class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                                    <p>
+                                        Since wind turbines themselves run strictly on the power of wind generated,
+                                        there is no need for fuel. Once the turbine is complete and installed, it
+                                        doesn’t need to be fueled or connected to power to continue working. This also
+                                        reduces the overall cost to continue to run large-scale wind farms in comparison
+                                        to other forms renewable energies, which require may require some energy
+                                        investment.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>
+                                    One of the Cleanest Forms of Energy <i
+                                            class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                                    <p>
+                                        Since wind energy doesn’t rely on fossil fuels to power the turbines, wind
+                                        energy does not contribute to climate change by emitting greenhouse gases during
+                                        energy production. The only time that wind energy indirectly releases greenhouse
+                                        gases is during the manufacturing and transport of the wind turbines, as well as
+                                        during the installation process.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span>
+                                    Advances in Technology <i
+                                            class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                                    <p>
+
+                                        The latest advances in technology have transformed preliminary wind turbine
+                                        designs into extremely efficient energy harvesters. Turbines are available in a
+                                        wide range of sizes, increasing the market to many different types businesses
+                                        and by individuals for use at home on larger lots and plots of land. As
+                                        technology improves, so do the functionalities of the structure itself, creating
+                                        designs that will generate even more electricity, require less maintenance, and
+                                        run more quietly and safely.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>Check our Services</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box">
+                        <img src="assets/img/renewable/15.jpg" class="img-fluid" alt="">
+                        <br>
+                        <br>
+                        <h4><a href="">Wind Turbines Installation</a></h4>
+                        <p>We offer high quality wind turbines with installation. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box">
+                        <img src="assets/img/renewable/9.jpg" class="img-fluid" alt="">
+                        <br>
+                        <br>
+                        <h4><a href="">Solar Panels Installation</a></h4>
+                        <p>With our professional workers, we guarantee best installation methods</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box">
+                        <img src="assets/img/renewable/19.jpg" class="img-fluid" alt="">
+                        <br>
+                        <br>
+                        <h4><a href="">4 Years of FREE Maintenance</a></h4>
+                        <p>Our products have four years of maintenance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals -->
+    <section id="testimonials" class="testimonials section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Our Goals</h2>
+                <p>Our mission</p>
+            </div>
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    <strong>Less global warming.</strong>
+                                    <br>
+                                    Human activity is overloading our atmosphere with carbon
+                                    dioxide and other global warming emissions. These gases act like a blanket, trapping
+                                    heat. The result is a web of significant and harmful impacts, from stronger, more
+                                    frequent storms, to drought, sea level rise, and extinction.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    <strong>Improved public health.</strong>
+                                    <br>
+                                    The air and water pollution emitted by coal and natural gas plants is linked with
+                                    breathing problems, neurological damage, heart attacks, cancer, premature death, and
+                                    a host of other serious problems.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    <strong>Inexhaustible energy.</strong>
+                                    <br>
+                                    Strong winds, sunny skies, abundant plant matter, heat from the earth, and
+                                    fast-moving water can each provide a vast and constantly replenished supply of
+                                    energy.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <p>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                    <strong>Jobs and other economic benefits.</strong>
+                                    <br>
+                                    Compared with fossil fuel technologies, which are typically mechanized and capital
+                                    intensive, the renewable energy industry is more labor intensive. Solar panels need
+                                    humans to install them; wind farms need technicians for maintenance.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Take an action -->
+    <section>
+        <div class="container" data-aos="zoom-in">
+            <div class="text-center">
+                <h3>You Can Take Action Too</h3>
+                <p>
+                    Take an action in protecting the planet, by switching to GREEN Energy
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products with filtering-->
+    <section id="products" class="portfolio">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Products</h2>
+                <p>Check our Products</p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-battery">Batteries</li>
+                        <li data-filter=".filter-solarPanel">Solar Panels</li>
+                        <li data-filter=".filter-inverter">Inverters</li>
+                        <li data-filter=".filter-windTurbine">Wind Turbine</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-battery">
+                    <img src="assets/img/renewable/products/1.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Lithium-Ion Battery 48V</h4>
+                        <p>Batteries</p>
+                        <a href="assets/img/renewable/products/1.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Lithium-Ion Battery 48V"><i
+                                class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-battery">
+                    <img src="assets/img/renewable/products/3.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Lithium-Ion Battery 24V</h4>
+                        <p>Batteries</p>
+                        <a href="assets/img/renewable/products/3.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Lithium-Ion Battery 24V"><i
+                                class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-battery">
+                    <img src="assets/img/renewable/products/4.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Lithium-Ion Battery 12V</h4>
+                        <p>Batteries</p>
+                        <a href="assets/img/renewable/products/4.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Lithium-Ion Battery 12V"><i
+                                class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-solarPanel">
+                    <img src="assets/img/renewable/products/5.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Pure Gel 12V</h4>
+                        <p>Batteries</p>
+                        <a href="assets/img/renewable/products/5.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Pure Gel 12V"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-solarPanel">
+                    <img src="assets/img/renewable/products/2.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Solar Panel 1</h4>
+                        <p>Solar Panels</p>
+                        <a href="assets/img/renewable/products/2.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Solar Panel 1"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-solarPanel">
+                    <img src="assets/img/renewable/products/8.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Solar Panel 2</h4>
+                        <p>Solar Panels</p>
+                        <a href="assets/img/renewable/products/8.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Solar Panel 2"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-windTurbine">
+                    <img src="assets/img/renewable/products/6.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Wind Turbine 1</h4>
+                        <p>Wind Turbines</p>
+                        <a href="assets/img/renewable/products/6.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Wind Turbine 1"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-windTurbine">
+                    <img src="assets/img/renewable/products/7.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Wind Turbine 2</h4>
+                        <p>Wind Turbines</p>
+                        <a href="assets/img/renewable/products/7.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Wind Turbine 2"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-inverter">
+                    <img src="assets/img/renewable/products/10.jpg" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <h4>Must Inverter</h4>
+                        <p>Inverters</p>
+                        <a href="assets/img/renewable/products/10.jpg" data-gallery="portfolioGallery"
+                           class="portfolio-lightbox preview-link" title="Must Inverter"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery with filters explanation-->
+    <section id="gallery" class="portfolio">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Gallery</h2>
+                <p>Our Gallery</p>
+            </div>
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/img/renewable/8.jpg" class="card-img-top" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Original Image</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/renewable/8.jpg" class="card-img-top filter-walden" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtered (Walden filter)</h5>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <strong>Walden: </strong>
+                    This filter adds brightness to the center of your image while also adding a blue tint to the image’s
+                    colors. This filter is great for portraits but it can also be used for well-lit images since it then
+                    gives them a vintage look.
+                </div>
+            </div>
+
+            <hr>
+            <br>
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/img/renewable/14.jpg" class="card-img-top" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Original Image</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/renewable/14.jpg" class="card-img-top filter-1977" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtered (1977 filter)</h5>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <strong>1977: </strong>
+                    The name gives this filter away and tells us that it is a vintage-inspired filter, and that is
+                    exactly what it is. 1977 gives your image a faded look while adding a red tint to it.This filter is
+                    great if you want to give your image an old-school look.
+                </div>
+            </div>
+
+            <hr>
+            <br>
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/img/renewable/15.jpg" class="card-img-top" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Original Image</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/renewable/15.jpg" class="card-img-top filter-moon" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtered (Moon filter)</h5>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-success">
+                    <strong>Moon: </strong>
+                    This filter is named after a dog belonging to one of the people in the Instagram team. This filter
+                    adds intense shadows and highlights contrasts. It is best used for giving your image a vintage look.
+                    It is also a popular option for selfies and portraits.
+                    You can explain Moon as a white version of Gingham.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Custom Font -->
+    <section id="font" class="portfolio">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Custom Font</h2>
+                <p>Try our custom font</p>
+            </div>
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/img/Custom%20Font.png" class="card-img-top filter-walden" alt="SREA">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtered (Walden filter)</h5>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <form method="get" action="assets/css/fonts/Hussamy_Font.ttf">
+                <strong>Hussamy Font </strong>
+                <i class="ri-emotion-happy-line"></i>
+                <br>
+                <button type="button" class="btn btn-primary">Download Font</button>
+            </form>
+            <hr>
+            <br>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="contact section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Contact Us</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="info-box">
+                                <i class="bx bx-map"></i>
+                                <h3>Our Address</h3>
+                                <p>Damascus, Syria, Al-Mazraa</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="info-box mt-4">
+                                <i class="bx bx-envelope"></i>
+                                <h3>Email Us</h3>
+                                <p>info@srea.com<br>contact@srea.com</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="info-box mt-4">
+                                <i class="bx bx-phone-call"></i>
+                                <h3>Call Us</h3>
+                                <p>+963 999 888 777<br>+963 988 777 666</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                   required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email"
+                                   placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                               required>
+                    </div>
+                    <div class="form-group mt-3">
+                            <textarea style="resize: none;" class="form-control" name="message" rows="5"
+                                      placeholder="Message"
+                                      required></textarea>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer-info">
+                        <img style="width: 40%;" src="assets/img/fav/android-chrome-512x512.png" alt=""
+                             class="img-fluid">
+                        <h2 class="logo">SREA</h2>
+                        <p class="pb-3"><em> SREA is a leading solar power developer with a proven track record.</em>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <h4>Want to join out newsletter?</h4>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Email</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Enter your email" aria-label="Username"
+                               aria-describedby="basic-addon1">
+                        <button type="button" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <br>
+                    <p>
+                        <strong>Phone:</strong> +963 999 888 777<br>
+                        <strong>Email:</strong> info@srea.com<br>
+                    </p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright
+            <strong>
+                <span class="logo">
+                    SREA
+                </span></strong>.
+            All Rights Reserved
+        </div>
+
+    </div>
+</footer>
+
+<!--Go Up Button-->
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- JS File -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
